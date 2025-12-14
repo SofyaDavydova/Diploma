@@ -18,10 +18,7 @@ docker compose up
         java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar 
 
    - для postgresgl:
-        java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/db"
-        "-Dspring.datasource.username=app"
-        "-Dspring.datasource.password=pass" -jar aqa-shop.jar
-
+        java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
  ```
 3. Убедиться в том, что сервис доступен по адресу:
 ```

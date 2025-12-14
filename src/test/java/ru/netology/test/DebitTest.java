@@ -36,7 +36,7 @@ public class DebitTest {
 
     @AfterEach
     void cleaningAllTables() {
-    cleanDatabase();
+        cleanDatabase();
     }
 
     //Позитивные сценарии

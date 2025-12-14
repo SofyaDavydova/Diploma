@@ -43,7 +43,6 @@ public class SQLTest {
         cleanDatabase();
     }
 
-
     @Test
     @DisplayName("Проверка статуса платежа при покупке картой со статусом APPROVED")
     public void shouldHaveApprovedStatusForPaymentWithApprovedCard() {

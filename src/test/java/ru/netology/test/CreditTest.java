@@ -35,9 +35,8 @@ public class CreditTest {
 
     @AfterEach
     void cleaningAllTables() {
-    cleanDatabase();
+        cleanDatabase();
     }
-
 
     //Позитивные сценарии
 
