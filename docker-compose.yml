@@ -1,9 +1,8 @@
 services:
   mysql:
     image: mysql:8.0.40
-    restart: always
     ports:
-      - "3306:3306"
+      - '3306:3306'
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_DATABASE=app
@@ -12,9 +11,8 @@ services:
 
   postgres:
     image: postgres:14-alpine
-    restart: always
     ports:
-      - "5432:5432"
+      - '5432:5432'
     environment:
       - POSTGRES_DB=app
       - POSTGRES_USER=app
